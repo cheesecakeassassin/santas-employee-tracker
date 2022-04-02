@@ -27,4 +27,5 @@ db.connect(err => {
   });
 });
 
-startEmployeeTracker();
+// // Starts inquirer
+// startEmployeeTracker();

@@ -13,7 +13,7 @@ router.get('/employee', (req, res) => {
             return;
         }
         res.json({
-            message: displayNeatly(data),
+            message: "Success",
             data: rows,
         });
     });

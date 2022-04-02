@@ -13,7 +13,7 @@ router.get('/department', (req, res) => {
             return;
         }
         res.json({
-            message: displayNeatly(data),
+            message: "Success",
             data: rows,
         });
     });
