@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../../db/connection');
-const { displayNeatly } = require('../../lib/Prompts');
 
 // Get all departments
 router.get('/department', (req, res) => {

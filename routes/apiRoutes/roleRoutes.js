@@ -13,7 +13,6 @@ router.get('/role', (req, res) => {
             return;
         }
         res.json({
-            message: "Success",
             data: rows,
         });
     });
